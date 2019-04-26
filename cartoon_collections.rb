@@ -1,4 +1,5 @@
 def roll_call_dwarves(names)
+names = []
 i = 0
 while i < names.length
   puts "#{i + 1}. #{names[i]}"
